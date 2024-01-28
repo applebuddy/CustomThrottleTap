@@ -14,6 +14,8 @@
 		881892782B6647C400595A3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 881892772B6647C400595A3E /* Assets.xcassets */; };
 		8818927B2B6647C400595A3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 881892792B6647C400595A3E /* LaunchScreen.storyboard */; };
 		8818929F2B66484A00595A3E /* UIControl+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8818929E2B66484A00595A3E /* UIControl+Extension.swift */; };
+		88391DC32B6653FB0026BB19 /* UITapGestureRecognizer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391DC22B6653FB0026BB19 /* UITapGestureRecognizer+Extension.swift */; };
+		88391DC52B6654110026BB19 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88391DC42B6654110026BB19 /* UIView+Extension.swift */; };
 		88DF63432B6650FF005E93E4 /* CustomThrottleTapGestureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881892852B6647C400595A3E /* CustomThrottleTapGestureTests.swift */; };
 		88DF63452B665111005E93E4 /* CustomThrottleTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881892A02B664B8B00595A3E /* CustomThrottleTapTests.swift */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,8 @@
 		881892852B6647C400595A3E /* CustomThrottleTapGestureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomThrottleTapGestureTests.swift; sourceTree = "<group>"; };
 		8818929E2B66484A00595A3E /* UIControl+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+Extension.swift"; sourceTree = "<group>"; };
 		881892A02B664B8B00595A3E /* CustomThrottleTapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CustomThrottleTapTests.swift; path = ../CustomThrottleTapTest/CustomThrottleTapTests.swift; sourceTree = "<group>"; };
+		88391DC22B6653FB0026BB19 /* UITapGestureRecognizer+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+Extension.swift"; sourceTree = "<group>"; };
+		88391DC42B6654110026BB19 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		88DF633A2B6650FA005E93E4 /* CustomThrottleTapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomThrottleTapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,6 +90,8 @@
 				881892702B6647C300595A3E /* SceneDelegate.swift */,
 				881892722B6647C300595A3E /* ViewController.swift */,
 				8818929E2B66484A00595A3E /* UIControl+Extension.swift */,
+				88391DC42B6654110026BB19 /* UIView+Extension.swift */,
+				88391DC22B6653FB0026BB19 /* UITapGestureRecognizer+Extension.swift */,
 				881892742B6647C300595A3E /* Main.storyboard */,
 				881892772B6647C400595A3E /* Assets.xcassets */,
 				881892792B6647C400595A3E /* LaunchScreen.storyboard */,
@@ -204,6 +210,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88391DC52B6654110026BB19 /* UIView+Extension.swift in Sources */,
+				88391DC32B6653FB0026BB19 /* UITapGestureRecognizer+Extension.swift in Sources */,
 				881892732B6647C300595A3E /* ViewController.swift in Sources */,
 				8818926F2B6647C300595A3E /* AppDelegate.swift in Sources */,
 				881892712B6647C300595A3E /* SceneDelegate.swift in Sources */,
